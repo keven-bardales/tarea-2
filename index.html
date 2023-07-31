@@ -7,24 +7,23 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>Gestor de Colección de Películas</h1>
+    <h1>Gestor de Colección de Películas (CRUD)</h1>
 
-  <div>
+  <div class="form-container">
     <label for="titulo">Título:</label>
-    <input type="text" id="titulo">
+    <input type="text" id="titulo" required>
     <label for="genero">Género:</label>
-    <input type="text" id="genero">
+    <input type="text" id="genero" required>
     <label for="anio">Año:</label>
-    <input type="number" id="anio">
+    <input type="number" id="anio" required>
     <label for="director">Director:</label>
-    <input type="text" id="director">
+    <input type="text" id="director" required>
     <button onclick="agregarPelicula()">Agregar Película</button>
   </div>
 
-  <div>
+  <div class="list-container">
     <h2>Películas en la Colección:</h2>
     <ul id="lista-peliculas">
-      <!-- Aquí se mostrarán las películas agregadas -->
     </ul>
   </div>
 
