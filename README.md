@@ -2,8 +2,6 @@
 
 Esta es una aplicación web simple para administrar una colección de películas. Permite agregar películas a la colección y ver la lista de películas existentes.
 
-## Capturas de Pantalla
-
 ## Características
 
 - Agregar películas a la colección.
