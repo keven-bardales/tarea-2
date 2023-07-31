@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Colección de Películas</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Gestor de Colección de Películas</h1>
+
+  <div>
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo">
+    <label for="genero">Género:</label>
+    <input type="text" id="genero">
+    <label for="anio">Año:</label>
+    <input type="number" id="anio">
+    <label for="director">Director:</label>
+    <input type="text" id="director">
+    <button onclick="agregarPelicula()">Agregar Película</button>
+  </div>
+
+  <div>
+    <h2>Películas en la Colección:</h2>
+    <ul id="lista-peliculas">
+      <!-- Aquí se mostrarán las películas agregadas -->
+    </ul>
+  </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
